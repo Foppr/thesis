@@ -31,7 +31,7 @@ export_results_1 = function(talk_id){
   library(caret)
   library(dplyr)
   
-  pathway = "/Users/Foppevb/Documents/School/Studietijd/22-23/TW-3/Semester-2/Scriptie/"
+  pathway = '' # add pathway here
   id = as.character(talk_id)
   
   pathway_id = paste(pathway, id, '/', sep='')
@@ -344,7 +344,7 @@ export_results_2 = function(talk_id){
   library(openxlsx)
   library(caret)
   
-  pathway = "/Users/Foppevb/Documents/School/Studietijd/22-23/TW-3/Semester-2/Scriptie/"
+  pathway = '' # add pathway here
   id = as.character(talk_id)
   
   pathway_id = paste(pathway, id, '/', sep='')
@@ -582,7 +582,7 @@ export_results_3 = function(talk_id){
   library(openxlsx)
   library(caret)
   
-  pathway = "/Users/Foppevb/Documents/School/Studietijd/22-23/TW-3/Semester-2/Scriptie/"
+  pathway = '' # add pathway here
   id = as.character(talk_id)
   
   pathway_id = paste(pathway, id, '/', sep='')
@@ -772,7 +772,7 @@ export_results_4 = function(talk_id){
   library(openxlsx)
   library(caret)
   
-  pathway = "/Users/Foppevb/Documents/School/Studietijd/22-23/TW-3/Semester-2/Scriptie/"
+  pathway = '' # add pathway here
   id = as.character(talk_id)
   
   pathway_id = paste(pathway, id, '/', sep='')
